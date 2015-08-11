@@ -25,7 +25,7 @@ BUILDDIR = $(abspath $(CURDIR)/build)
 #************************************************************************
 
 # path location for Teensy Loader, teensy_post_compile and teensy_reboot
-TOOLSPATH = $(CURDIR)/tools
+TOOLSPATH = /usr/share/arduino/hardware/tools/arm-none-eabi/
 
 ifeq ($(OS),Windows_NT)
     $(error What is Win Dose?)
