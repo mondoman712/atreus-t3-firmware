@@ -8,7 +8,7 @@
 unsigned char current_layer_number = 0;
 
 
-unsigned char row_pins[] = { 0, 1, 2, 3 };
+unsigned char row_pins[] = { 0, 1, 3, 2 };
 unsigned char column_pins[] = { 6, 7, 8, 9, 10,  14, 15, 16, 17, 18, 19 };
 #define ROW_COUNT     ( sizeof(row_pins) / sizeof(row_pins[0]) ) // 4
 #define COLUMN_COUNT  ( sizeof(column_pins) / sizeof(column_pins[0]) ) //11
